@@ -15,7 +15,7 @@ const postRoute = require('./routes/postRoute');
 const chatRoute = require('./routes/chatRoute');
 const paymentRoute = require('./routes/paymentRoute'); // Import the payment route
 
-dotenv.config();
+dotenv.config()
 const app = express();
 
 // Create an HTTP server to work with both Express and Socket.IO
