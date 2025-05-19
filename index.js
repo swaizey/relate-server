@@ -35,7 +35,7 @@ app.use(bodyParser.json({ limit: '30mb', extended: true }));
 app.use(cookieParser());
 app.use(
   cors({
-    origin: ['http://localhost:5173', 'http://127.0.0.1:5173'], // Replace with your frontend URL
+    origin: ['https://reltv.netlify.app/login'], // Replace with your frontend URL
     credentials: true, // Allow cookies to be sent
   })
 );
